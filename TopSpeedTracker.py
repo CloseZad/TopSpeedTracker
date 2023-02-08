@@ -66,12 +66,17 @@ def acMain(ac_version):
 
 def KPH(*args):
     global Units
-    converttoKMH()
+    if Units:
+      converttoKMH()
+    # converttoKMH()
     Units = False
+
 
 def MPH(*args):
     global Units
-    converttoMPH()
+    if not Units:
+      converttoMPH()
+    # converttoMPH()
     Units = True
     
 def converttoMPH():
