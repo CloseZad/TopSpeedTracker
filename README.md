@@ -4,7 +4,7 @@ I was playing around with App development for Assetto Corsa and thought of a nea
 
 Installation:
 1. Install the repository as a zip
-2. Extract the zip, and paste it in C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\apps\python
+2. Extract the zip, take the interior folder (make sure only one exterior folder and the actual app contents are inside that) and paste it in C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\apps\python
 3. In content manager, go to settings > Assetto Corsa > Python Apps
   - Make sure enable python apps is checked, and the Top Speed Tracker app is checked under the Activated Apps: section
 
